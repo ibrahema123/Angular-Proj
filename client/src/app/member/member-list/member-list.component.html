@@ -11,6 +11,8 @@
           class="form-control ms-1"
           style="width: 100px;"
           name="minAge"
+          [min]="18"
+          [max]="150"
           [(ngModel)]="userParams.minAge">
     </div>
 
@@ -21,6 +23,8 @@
           class="form-control ms-1"
           style="width: 100px;"
           name="maxAge"
+          [min]="18"
+          [max]="150"
           [(ngModel)]="userParams.maxAge">
     </div>
 
